@@ -1,0 +1,1051 @@
+Using pre-set license
+Built from '6000.0/china_unity/10f1' branch; Version is '6000.0.10f1c1 (0d20b9198bf0) revision 860345'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.10f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/GMTK_TD/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62168
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/UnityProject/GMTK_TD/My project
+D:/UnityProject/GMTK_TD/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25824]  Target information:
+
+Player connection [25824]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 91421565 [EditorId] 91421565 [Version] 1048832 [Id] WindowsEditor(7,Kiyohime) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25824] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25824] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.10f1c1 (0d20b9198bf0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.10f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/GMTK_TD/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.10f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.10f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.10f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.10f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005323 seconds.
+- Loaded All Assemblies, in  0.476 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.416 seconds
+Domain Reload Profiling: 885ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.153 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.937 seconds
+Domain Reload Profiling: 2079ms
+	BeginReloadAssembly (481ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (172ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5885 unused Assets / (5.4 MB). Loaded Objects now: 6655.
+Memory consumption went from 185.3 MB to 179.9 MB.
+Total: 10.096500 ms (FindLiveObjects: 0.653000 ms CreateObjectMapping: 0.645600 ms MarkObjects: 6.010700 ms  DeleteObjects: 2.785600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173433.867805 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9b2288c2f869e6641b5e09c666fc6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9b2288c2f869e6641b5e09c666fc6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '58365f220a1b831150519b91bd3099ab') in 0.0058704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '97b93d820d95dd656f91242fe8a4f1e0') in 0.0005632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cb72226ff3fde36a08fe136c18ad5a6d') in 0.0005236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.786 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.895 seconds
+Domain Reload Profiling: 1672ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (603ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5882 unused Assets / (4.7 MB). Loaded Objects now: 6667.
+Memory consumption went from 166.5 MB to 161.8 MB.
+Total: 8.985300 ms (FindLiveObjects: 0.634900 ms CreateObjectMapping: 0.735000 ms MarkObjects: 5.455500 ms  DeleteObjects: 2.158500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 260.371203 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(563d9e60d133bb64492ff3df83af7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(563d9e60d133bb64492ff3df83af7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '622ad48edbec97fef897c8360c4dfcef') in 0.0064175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246166 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b03acc8fa924fedca48f11c0d1c1cbc0') in 0.0005415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423882 seconds.
+  path: Assets/Scripts/test.cs
+  artifactKey: Guid(2e4c11b066b9c5448a3b4e6676143e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/test.cs using Guid(2e4c11b066b9c5448a3b4e6676143e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f56e0369186cbab8b88fd9aa04f3ca09') in 0.0005137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Hidden/FXAA Preset 2': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 7.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6004 unused Assets / (12.4 MB). Loaded Objects now: 6729.
+Memory consumption went from 187.4 MB to 175.1 MB.
+Total: 14.139400 ms (FindLiveObjects: 0.640500 ms CreateObjectMapping: 0.825300 ms MarkObjects: 6.171500 ms  DeleteObjects: 6.501000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9052.714053 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets
+  artifactKey: Guid(413916db9a128cf4bbb1713baa3074eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets using Guid(413916db9a128cf4bbb1713baa3074eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8abe181321d3d82e5ff0129687c45753') in 0.0066681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.772016 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Particles/Campfire_particle.prefab
+  artifactKey: Guid(09129c9be4885334bb094bdc6b42af01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Particles/Campfire_particle.prefab using Guid(09129c9be4885334bb094bdc6b42af01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8bbfc002bce2cdd75856e0da8acac11e') in 0.4952489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016472 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Particles/materials/Fire1.mat
+  artifactKey: Guid(513cab834217de041b2466274f1529af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Particles/materials/Fire1.mat using Guid(513cab834217de041b2466274f1529af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82013a9518ea54784048504c38d995ea') in 0.1456049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.382069 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Particles/Fire_and_Light.prefab
+  artifactKey: Guid(c91a2b2e5dd737a409575ca2bca3b80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Particles/Fire_and_Light.prefab using Guid(c91a2b2e5dd737a409575ca2bca3b80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f9e72b1d27347fa8f4994440bbb1553f') in 0.0098424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093151 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Particles/Fire_and_Light.prefab
+  artifactKey: Guid(c91a2b2e5dd737a409575ca2bca3b80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Particles/Fire_and_Light.prefab using Guid(c91a2b2e5dd737a409575ca2bca3b80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1a2e492e4208c4f35d8f83187be6e8d7') in 0.0091189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.282436 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Textures
+  artifactKey: Guid(54bef800894605c44bde5d15c026cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Textures using Guid(54bef800894605c44bde5d15c026cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ad764d99e86fa9db828c6ebe70861c6') in 0.0007134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.030388 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Banner.prefab
+  artifactKey: Guid(ae1bfaed41d170647b31864257fe8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Banner.prefab using Guid(ae1bfaed41d170647b31864257fe8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4899f38dca8cae164d48293eff3406d8') in 0.0724494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.112387 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barricade1.prefab
+  artifactKey: Guid(9e9dade67ca4ddb468dda65f8fae0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barricade1.prefab using Guid(9e9dade67ca4ddb468dda65f8fae0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0c6729c7f5bb7cb971e7a48ddba461dc') in 0.0365643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.691206 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barrier1.prefab
+  artifactKey: Guid(145943aeed3e4bd48bc609e6a6378f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barrier1.prefab using Guid(145943aeed3e4bd48bc609e6a6378f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b0d72ac5178248f71539789e41fe0b0') in 0.0146013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.532881 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barrier4.prefab
+  artifactKey: Guid(6ecbe4b744e5b7b4d8fda9548b86d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barrier4.prefab using Guid(6ecbe4b744e5b7b4d8fda9548b86d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ea05d25ae661420e5639924b63719f9') in 0.0153833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.046508 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Acid3.prefab
+  artifactKey: Guid(1277a8af31442e34ca56b7c78983c211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Acid3.prefab using Guid(1277a8af31442e34ca56b7c78983c211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f2f0022e03b427bf08d37be6d77e0e97') in 0.0139116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.661702 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon2.prefab
+  artifactKey: Guid(f26b6dcf753b2ab4485451aa32ffea3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon2.prefab using Guid(f26b6dcf753b2ab4485451aa32ffea3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '358d1ec4ea7870e540e3fcc5408c8c73') in 0.0196274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.915854 seconds.
+  path: Assets/MOBA and Tower Defense/info snow assets.txt
+  artifactKey: Guid(7612d2e0917f3344f83f5df873cf0d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/info snow assets.txt using Guid(7612d2e0917f3344f83f5df873cf0d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ed58c7bb071b7a9f7733b16abbc3380') in 0.0012028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.654130 seconds.
+  path: Assets/MOBA and Tower Defense/info.txt
+  artifactKey: Guid(b5193854d7340f74dab232b166449db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/info.txt using Guid(b5193854d7340f74dab232b166449db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6946b3df1dc9b3f266f15e1a120ef07f') in 0.0010944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.930619 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds
+  artifactKey: Guid(b3042baa02e8f3c4f9320736615fb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds using Guid(b3042baa02e8f3c4f9320736615fb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'efa0427ccb527c8c9a2271b7fd1c0dd1') in 0.0005536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.853711 seconds.
+  path: Assets/MOBA and Tower Defense
+  artifactKey: Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense using Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '669cb7710db47af003849928c4eeacd4') in 0.0005742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.091998 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/_origin/Textures/Tow_cannon1.tif
+  artifactKey: Guid(68a502ffc2b8f1e4ca22e4a16dd6d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/_origin/Textures/Tow_cannon1.tif using Guid(68a502ffc2b8f1e4ca22e4a16dd6d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd45ce03eef06b0e86d0d07f726ac47f') in 0.0210229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.265062 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/_origin
+  artifactKey: Guid(78633534e713ca2408e4d4321c893c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/_origin using Guid(78633534e713ca2408e4d4321c893c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '545a08fd0e3762c67c72c3e6ab6f4cdc') in 0.0006269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.668422 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Textures/Tree_leaves.tif
+  artifactKey: Guid(554ded1af940a9049b40b5347f7b87bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Textures/Tree_leaves.tif using Guid(554ded1af940a9049b40b5347f7b87bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f82d25d5621ab794e4575cc0d02e230d') in 0.0178315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.042429 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Textures/Wall_stone.tif
+  artifactKey: Guid(632e600c97770034eba208eb0ed86c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Textures/Wall_stone.tif using Guid(632e600c97770034eba208eb0ed86c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3fad71194d0c257c181c9d0c8c891cb4') in 0.013164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.438083 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Textures/Wall_wood.tif
+  artifactKey: Guid(3d3eeffa3da0d4848a36610922037167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Textures/Wall_wood.tif using Guid(3d3eeffa3da0d4848a36610922037167) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1836e0e8db240fa989a810091fe6c0ed') in 0.020805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.915600 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Models
+  artifactKey: Guid(0ab84b96e2fd92744840eb3bbac107ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Models using Guid(0ab84b96e2fd92744840eb3bbac107ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f3daef6d58f804c8645865bad4121796') in 0.0010113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.696072 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barrier2.prefab
+  artifactKey: Guid(27c5bf75d8925b647b190d790b90d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barrier2.prefab using Guid(27c5bf75d8925b647b190d790b90d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a989fc3820381f0ba13565e1382a7343') in 0.0149803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.226253 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Bones_02.prefab
+  artifactKey: Guid(2ebe3baa81c14e643af5e086b08caca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Bones_02.prefab using Guid(2ebe3baa81c14e643af5e086b08caca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b4e686a9435f73f9888a9090012fd4aa') in 0.012901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.389819 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Brickwall_debris1.prefab
+  artifactKey: Guid(837a87df7f8e6d64caa0919c2fe30e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Brickwall_debris1.prefab using Guid(837a87df7f8e6d64caa0919c2fe30e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4de0970d19f1b19fb53dff0f03276877') in 0.016949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.326999 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Bush_02.prefab
+  artifactKey: Guid(4fc951837d1497e42b0c1f7a31906ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Bush_02.prefab using Guid(4fc951837d1497e42b0c1f7a31906ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6a1c18efdf198d8226c152583a0dcd2e') in 0.0373034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.701431 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Column2.prefab
+  artifactKey: Guid(9facb15d13b170d49aac481a28d98982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Column2.prefab using Guid(9facb15d13b170d49aac481a28d98982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2870c37db7d38f13ff5af2a37e747eb2') in 0.0178308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.410045 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon1.prefab
+  artifactKey: Guid(c750f9054cec93740b96cb359da73074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon1.prefab using Guid(c750f9054cec93740b96cb359da73074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f8a6cc49b4a262a8e32e3c3495760d9') in 0.0128536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.860421 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crossbow2.prefab
+  artifactKey: Guid(74bc131af1defe2498db1988a442c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crossbow2.prefab using Guid(74bc131af1defe2498db1988a442c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd33a5fb0841d7a6e2dca3c934e75c870') in 0.0934109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.840427 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crystal2.prefab
+  artifactKey: Guid(0122838a3961c8841bbe19d43f368918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crystal2.prefab using Guid(0122838a3961c8841bbe19d43f368918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e4c2af74fe2fbb0e36808645b74dd8da') in 0.0203276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.973962 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Fire2.prefab
+  artifactKey: Guid(fd15b8db030ce5543bd8137839360e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Fire2.prefab using Guid(fd15b8db030ce5543bd8137839360e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a22a498d214032bef8effdbb513b0792') in 0.0151562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711188 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Gatling1.prefab
+  artifactKey: Guid(59b6bf2d6fd22cb46af59b75237dcd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Gatling1.prefab using Guid(59b6bf2d6fd22cb46af59b75237dcd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b80224447ed9c6f91f0845e36e928b43') in 0.0128401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.531527 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Gauss3.prefab
+  artifactKey: Guid(c34e9023c81b3e54a8bea6d128746dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Gauss3.prefab using Guid(c34e9023c81b3e54a8bea6d128746dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7514ecbdb1fe376e7ee03387ccdec4b') in 0.0143872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.553815 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Hammer3.prefab
+  artifactKey: Guid(69d5a1da5975cb7408835788ed8c0325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Hammer3.prefab using Guid(69d5a1da5975cb7408835788ed8c0325) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4d288b391204716c831491333beaceb') in 0.0150843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.920105 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Laser3.prefab
+  artifactKey: Guid(62b2b48d66f8a3c42acb7e96acc10475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Laser3.prefab using Guid(62b2b48d66f8a3c42acb7e96acc10475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4688078b3484e4609d8c05045620a386') in 0.013559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547417 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun3.prefab
+  artifactKey: Guid(ee249d70eb4503c4e814835353ebb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun3.prefab using Guid(ee249d70eb4503c4e814835353ebb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe662823824cd4212033edc1b3340780') in 0.0144808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.514922 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Mortar2.prefab
+  artifactKey: Guid(b59f8145da3b11f449188fa350c62270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Mortar2.prefab using Guid(b59f8145da3b11f449188fa350c62270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a1ba4d354dfe05b7a0127bcd7ad76a27') in 0.0146059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.013407 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Radar1.prefab
+  artifactKey: Guid(0117dc41ee02c384991324a68c148eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Radar1.prefab using Guid(0117dc41ee02c384991324a68c148eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1436ff4de820f4094eff9cef770fceef') in 0.0152387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.817280 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_3.prefab
+  artifactKey: Guid(cf6b94af8b435bb45b8cae6bcffbd772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_3.prefab using Guid(cf6b94af8b435bb45b8cae6bcffbd772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6f5630bb7b4d86b842c34f48f346c5a4') in 0.0152993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.332117 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Tesla1.prefab
+  artifactKey: Guid(589de37dfaa5f4842a67d77c3cac8e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Tesla1.prefab using Guid(589de37dfaa5f4842a67d77c3cac8e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f8984d909841ab44c69fae2ce80ad87') in 0.0246039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.607202 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_2.prefab
+  artifactKey: Guid(eb7b8d2c185b5b74c94312e29a88edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_2.prefab using Guid(eb7b8d2c185b5b74c94312e29a88edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8fd90df175ab656da795b414c4952e4e') in 0.0191159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.771085 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props
+  artifactKey: Guid(4eb29ab1edae67d4c84985406a679578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props using Guid(4eb29ab1edae67d4c84985406a679578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e818db866771fb3f13469198124f35c5') in 0.0005908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.541311 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_01.tif
+  artifactKey: Guid(bc804a360cf41ae4e93cc4e86539f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_01.tif using Guid(bc804a360cf41ae4e93cc4e86539f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '65aaad9f08fd1f0054a43dde66ab761e') in 0.0122986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.576028 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_03.tif
+  artifactKey: Guid(b7def513e46b90c44ad5fd2e2b6dc64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_03.tif using Guid(b7def513e46b90c44ad5fd2e2b6dc64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '34793045e12ae0f280463c151c614201') in 0.0154001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388206 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_04.tif
+  artifactKey: Guid(6cbd5920252610e498a57e5b67800f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_04.tif using Guid(6cbd5920252610e498a57e5b67800f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09df0def24c2c5254c3339e0260eb448') in 0.012525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362471 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_05.tif
+  artifactKey: Guid(77fc5f4a898484c4f8721954c09036a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_05.tif using Guid(77fc5f4a898484c4f8721954c09036a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aff9f63f8e47ed749f75a831c159d6e6') in 0.0137067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.290724 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_05_winter.tif
+  artifactKey: Guid(7e0ef318c347890479c036c4387d9f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_05_winter.tif using Guid(7e0ef318c347890479c036c4387d9f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '756abb291a4ac1d0a021ce1526c79736') in 0.0116967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.296682 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_06_nmp.tif
+  artifactKey: Guid(a1492a21af2bb0f4b8598cf02d55dd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_06_nmp.tif using Guid(a1492a21af2bb0f4b8598cf02d55dd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b8bb49b40c88e7b5fa5e428f51aadbf') in 0.0186263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.308474 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_06_winter.tif
+  artifactKey: Guid(999e53270c48d1b4f8fe759aa50103d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_06_winter.tif using Guid(999e53270c48d1b4f8fe759aa50103d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed70366d4a8fcd50784685877ccce17b') in 0.0127444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.467968 seconds.
+  path: Assets/MOBA and Tower Defense/Grounds/Ground_06.tif
+  artifactKey: Guid(1320dfe4b8580f74aaf3887d1aea85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Grounds/Ground_06.tif using Guid(1320dfe4b8580f74aaf3887d1aea85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3505ff8e9d323bf913b43c2f67e30de7') in 0.011737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.599873 seconds.
+  path: Assets/MOBA and Tower Defense/Standard Assets/Editor/ImageEffects
+  artifactKey: Guid(225198e07aaae3547a6d1f6e7177555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Standard Assets/Editor/ImageEffects using Guid(225198e07aaae3547a6d1f6e7177555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '909d8d6286178c745e459401990f65dd') in 0.0006299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313184 seconds.
+  path: Assets/MOBA and Tower Defense/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs
+  artifactKey: Guid(4deca87cb459d1642ac8f734856ca84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs using Guid(4deca87cb459d1642ac8f734856ca84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '001c4939f8a30784ef42a0937cd54848') in 0.0005589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.786457 seconds.
+  path: Assets/MOBA and Tower Defense/Standard Assets/Editor
+  artifactKey: Guid(6fcca5a82ffd61d4b9505503a5622b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Standard Assets/Editor using Guid(6fcca5a82ffd61d4b9505503a5622b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a2e637b9eca3955f2f8c8f70036821b') in 0.0005777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.382068 seconds.
+  path: Assets/MOBA and Tower Defense/Standard Assets
+  artifactKey: Guid(0a94180d58564864eaf1bbddec1674fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Standard Assets using Guid(0a94180d58564864eaf1bbddec1674fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '866687820c4e79f40a02789096eec7c7') in 0.0006061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5875 unused Assets / (5.4 MB). Loaded Objects now: 6865.
+Memory consumption went from 188.5 MB to 183.1 MB.
+Total: 13.305000 ms (FindLiveObjects: 0.650100 ms CreateObjectMapping: 0.656900 ms MarkObjects: 7.847100 ms  DeleteObjects: 4.149100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.351 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.006 seconds
+Domain Reload Profiling: 4347ms
+	BeginReloadAssembly (530ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (160ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (2587ms)
+		LoadAssemblies (2790ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5882 unused Assets / (4.5 MB). Loaded Objects now: 6748.
+Memory consumption went from 183.7 MB to 179.2 MB.
+Total: 7.656800 ms (FindLiveObjects: 0.634000 ms CreateObjectMapping: 0.357100 ms MarkObjects: 4.773900 ms  DeleteObjects: 1.891000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.402916 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barrier1.prefab
+  artifactKey: Guid(145943aeed3e4bd48bc609e6a6378f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barrier1.prefab using Guid(145943aeed3e4bd48bc609e6a6378f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ee7b57ae8b969b71768b070e62ff96d') in 2.4832087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.475500 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barrier3.prefab
+  artifactKey: Guid(c028736ef4b5bc14c90f2813ab58e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barrier3.prefab using Guid(c028736ef4b5bc14c90f2813ab58e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ccd767cbf7002aa94017624de7eaed0') in 0.0136533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.379194 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barrier2.prefab
+  artifactKey: Guid(27c5bf75d8925b647b190d790b90d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barrier2.prefab using Guid(27c5bf75d8925b647b190d790b90d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7436f898581fc2f41045af83d00441a6') in 0.0152587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.606637 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon1.prefab
+  artifactKey: Guid(c750f9054cec93740b96cb359da73074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon1.prefab using Guid(c750f9054cec93740b96cb359da73074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7823326b92e67da8271e32357a2c8c31') in 1.6562847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.756705 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon3.prefab
+  artifactKey: Guid(e3b6e52f3c5c469419a8d92c745fdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon3.prefab using Guid(e3b6e52f3c5c469419a8d92c745fdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8cf5ae919fe028e1a401554932985af4') in 0.0139712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.159624 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Particles
+  artifactKey: Guid(195395850f324bf44b86910bcf7cf66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Particles using Guid(195395850f324bf44b86910bcf7cf66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8ae27445782565f8c142a7c17b55cdc') in 0.0007428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.551598 seconds.
+  path: Assets/Model_Tower
+  artifactKey: Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model_Tower using Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '390b4e8ce11de6acc51f7684d409e89b') in 0.0005401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.089311 seconds.
+  path: Assets/AddOns
+  artifactKey: Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns using Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c57242886a5cf677bf0b3258e0c069ff') in 0.000897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.070204 seconds.
+  path: Assets/Addons
+  artifactKey: Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons using Guid(6526e60383a48864bb7d0a9061043a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '21794b41049477e4dafb141615cfbba0') in 0.0005532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.676038 seconds.
+  path: Assets/Addons/Prefabs_props/Barricade1.prefab
+  artifactKey: Guid(9e9dade67ca4ddb468dda65f8fae0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Barricade1.prefab using Guid(9e9dade67ca4ddb468dda65f8fae0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db23a29e8b0c22de918f31317157cba0') in 0.0138004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.097552 seconds.
+  path: Assets/Addons/Prefabs_props/Block3.prefab
+  artifactKey: Guid(92eb8a60fd2d5144ebc52fd010dd4643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Block3.prefab using Guid(92eb8a60fd2d5144ebc52fd010dd4643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d2f7a2abea9d6bab05e42401881786d') in 1.7169976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Addons/Prefabs_props/Brickwall2.prefab
+  artifactKey: Guid(2bf881ca1fa68584fbea20a8880898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Brickwall2.prefab using Guid(2bf881ca1fa68584fbea20a8880898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6dc7bd32aa90cefa1c041eeb98ec8356') in 0.0187386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361358 seconds.
+  path: Assets/Addons/Prefabs_props/Brickwall_debris1.prefab
+  artifactKey: Guid(837a87df7f8e6d64caa0919c2fe30e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Brickwall_debris1.prefab using Guid(837a87df7f8e6d64caa0919c2fe30e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f1db58cdc436a389d475fb041cbe3467') in 0.0202776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456153 seconds.
+  path: Assets/Addons/Prefabs_props/Bush_01.prefab
+  artifactKey: Guid(d70c19bf6ce62aa4baf2c046c2c9e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Bush_01.prefab using Guid(d70c19bf6ce62aa4baf2c046c2c9e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0deab2e4243e808d9befbb5c0b78302d') in 1.9097563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.448984 seconds.
+  path: Assets/Addons/Prefabs_props/Bush_07.prefab
+  artifactKey: Guid(7bcdafa0fd94fdc40b204e11344e778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Bush_07.prefab using Guid(7bcdafa0fd94fdc40b204e11344e778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e0da0bd44f4e9ee28f5bd3e5d9d8e7e') in 0.0179638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.683650 seconds.
+  path: Assets/Addons/Prefabs_props/Bush_09.prefab
+  artifactKey: Guid(fc4eae100fe5001449eb37e9ef21c174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Bush_09.prefab using Guid(fc4eae100fe5001449eb37e9ef21c174) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2a292a8f6bb23e56d070e108be570096') in 0.0154152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682591 seconds.
+  path: Assets/Addons/Prefabs_props/Column1.prefab
+  artifactKey: Guid(2243d9dfdf3af444b859b68c135afced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Column1.prefab using Guid(2243d9dfdf3af444b859b68c135afced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62be2bade125a975b2b46e35b53d471c') in 0.0209611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.832986 seconds.
+  path: Assets/Addons/Prefabs_props/Crystal2.prefab
+  artifactKey: Guid(f8782c2ba3a6875438cd978bf991f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/Prefabs_props/Crystal2.prefab using Guid(f8782c2ba3a6875438cd978bf991f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f781fd3513cadaccf308594d1b4160e') in 2.0620421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
