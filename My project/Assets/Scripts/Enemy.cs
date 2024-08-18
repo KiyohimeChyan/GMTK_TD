@@ -111,7 +111,6 @@ public class Enemy : MonoBehaviour
                 }
             }
         }
-        Debug.Log("test");
         return largestCollider;
     }
 }
