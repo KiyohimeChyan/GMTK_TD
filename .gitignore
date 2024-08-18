@@ -9,3 +9,4 @@ Logs
 *.log
 *.sln
 /My project/obj
+*.log
