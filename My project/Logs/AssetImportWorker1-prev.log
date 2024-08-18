@@ -322,27 +322,3 @@ Start importing Assets/Addons/Prefabs_props/Fence_elements1.prefab using Guid(5b
  -> (artifact id: '1696a65ea8a9a75602960b1b52759c62') in 0.0197191 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
-========================================================================
-Received Import Request.
-  Time since last request: 1885.692151 seconds.
-  path: Assets/Addons/Prefabs_Turrets/_origin/Models/Tow_Plasma2.fbx
-  artifactKey: Guid(ebab1e46fd26eb94aac218692264b9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Addons/Prefabs_Turrets/_origin/Models/Tow_Plasma2.fbx using Guid(ebab1e46fd26eb94aac218692264b9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3a9b642288488ac3bfb5508183bb653d') in 1.8915884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 263.486331 seconds.
-  path: Assets/Addons/Prefabs_props/Rune_06.prefab
-  artifactKey: Guid(dad14abc25c1ba346a42940fb0e754f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Addons/Prefabs_props/Rune_06.prefab using Guid(dad14abc25c1ba346a42940fb0e754f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b01da492a4f9aa3722bf5e6adae48553') in 0.0394884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
